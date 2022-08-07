@@ -1,0 +1,30 @@
+.tarea-formulario {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;   
+}
+
+.tarea-input {
+  width: 350px;
+  font-size: 18px;
+  background-color: white;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #00471b;
+  outline: none; /*para que no tenga un revorde u otro borde*/
+}
+
+
+.tarea-boton {
+  padding: 16px;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: #00471b;
+  color: #fff;
+  text-transform: capitalize; /*lo que hace esto es que la primer letra de cada palabra se combierta en mayuscula*/
+}
